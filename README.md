@@ -5,3 +5,8 @@ Repository only for demonstration purposes of working with the git submodule.
 ```bash
 git submodule add git@github.com:segeda/data-json.git data
 ```
+
+## After updating submodule repository
+```bash
+git submodule update --remote data
+```
